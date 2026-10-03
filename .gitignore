@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Configuration — secrets never in repo
+.env
+.env.*
+
+# Database files
+*.db
+*.sqlite
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Agent Scratch Directory
+brain/
+
+# ML scratch
+ml/__pycache__/
+ml/data/*.csv
+ml/{data,models,images}/

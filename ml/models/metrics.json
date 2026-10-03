@@ -1,0 +1,46 @@
+{
+  "best_model": "logistic_regression",
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.956,
+      "precision": 0.9562672404549228,
+      "recall": 0.956,
+      "f1_score": 0.956090657930919
+    },
+    "decision_tree": {
+      "accuracy": 0.663,
+      "precision": 0.6711814715764132,
+      "recall": 0.663,
+      "f1_score": 0.6660116022646057
+    },
+    "random_forest": {
+      "accuracy": 0.796,
+      "precision": 0.7985875678694828,
+      "recall": 0.796,
+      "f1_score": 0.7966427957179365
+    },
+    "gradient_boosting": {
+      "accuracy": 0.803,
+      "precision": 0.8063872134491405,
+      "recall": 0.803,
+      "f1_score": 0.8034571291362917
+    }
+  },
+  "feature_columns": [
+    "production_time",
+    "machine_utilization",
+    "energy_consumption",
+    "material_usage",
+    "downtime",
+    "worker_count",
+    "defect_rate",
+    "maintenance_frequency",
+    "inventory_level"
+  ],
+  "class_names": [
+    "High",
+    "Low",
+    "Moderate",
+    "Optimal"
+  ]
+}
